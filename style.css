@@ -1,0 +1,26 @@
+
+html,body{
+margin:0;height:100%;background:#181818;font-family:sans-serif;overflow:hidden;
+}
+#viewer{
+width:100vw;height:100vh;display:flex;justify-content:center;align-items:center;
+}
+#book{
+width:min(96vw,1400px);
+height:min(96vh,1000px);
+display:flex;justify-content:center;align-items:center;
+}
+.page{
+background:white;
+display:flex;
+justify-content:center;
+align-items:center;
+overflow:hidden;
+}
+.page img{
+width:100%;
+height:100%;
+object-fit:contain;
+user-select:none;
+pointer-events:none;
+}
