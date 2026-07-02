@@ -64,9 +64,9 @@ const pageFlip = new St.PageFlip(bookElement, {
 
     autoSize: true,
 
-    usePortrait: false,
+    usePortrait: true,
 
-    showCover: true,
+    showCover: false,
 
     mobileScrollSupport: true,
 
