@@ -23,7 +23,7 @@ Este projeto representa o início do **Volume 1**, reunindo escrita, ilustraçõ
 Cada apoio ajuda diretamente na produção da novel, permitindo o desenvolvimento de novos capítulos, ilustrações e a expansão do universo de *Kartz*.
 
 👤 **Autor e Ilustrador:**  
-Juarez de Alcantara Filho *(JiyuriArtz)*
+Juarez D Alcantara Filho *(JiyuriArtz / Zeraujy)*
 
 ---
 
