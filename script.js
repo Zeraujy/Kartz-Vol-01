@@ -69,7 +69,7 @@ pages.forEach(page => {
 
 pageFlip.loadFromHTML(bookElement.querySelectorAll(".page"));
 
-}
+
 
 pageFlip.on("flip", updateIndicator);
 
