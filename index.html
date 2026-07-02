@@ -1,14 +1,72 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Kartz Reader</title>
-<link rel="stylesheet" href="style.css">
-<script src="https://cdn.jsdelivr.net/npm/page-flip/dist/js/page-flip.browser.min.js"></script>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>Kartz - Volume 01</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/page-flip@2.0.7/dist/js/page-flip.browser.min.js"></script>
+
 </head>
+
 <body>
-<div id="viewer"><div id="book"></div></div>
+
+<div id="app">
+
+    <header id="toolbar">
+
+        <button id="prevBtn">
+            ◀
+        </button>
+
+        <span id="pageIndicator">
+
+            Página 1
+
+        </span>
+
+        <button id="nextBtn">
+            ▶
+        </button>
+
+        <div class="spacer"></div>
+
+        <button id="zoomOut">
+            −
+        </button>
+
+        <button id="zoomIn">
+            +
+        </button>
+
+        <button id="fullscreen">
+
+            ⛶
+
+        </button>
+
+    </header>
+
+    <main id="viewer">
+
+        <div id="book">
+
+        </div>
+
+    </main>
+
+</div>
+
 <script src="script.js"></script>
+
 </body>
+
 </html>
