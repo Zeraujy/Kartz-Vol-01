@@ -82,7 +82,9 @@ Se quiser apoiar o desenvolvimento de *Kartz*, você pode contribuir pelas plata
 
 </div>
 
-Copyright (c) 2026 Juarez de Alcantara Filho
+<div align="center">
+Copyright (c) 2026 Juarez D. Alcantara Filho, JiyuriArtz and Zeraujy Alkan
 
 All rights reserved.
 No permission is granted to copy, distribute or modify this project without explicit authorization.
+</div>
