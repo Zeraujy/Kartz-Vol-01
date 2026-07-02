@@ -12,6 +12,35 @@ const fullscreenBtn = document.getElementById("fullscreen");
 
 let zoom = 1;
 
+function updateIndicator() {
+
+    const current = pageFlip.getCurrentPageIndex() + 1;
+    const total = pageFlip.getPageCount();
+
+    pageIndicator.textContent = `Página ${current} de ${total}`;
+
+}
+
+function resizeBook() {
+
+    if (window.innerWidth < 768) {
+
+        bookElement.style.width = "96vw";
+        bookElement.style.height = "84vh";
+
+    } else {
+
+        bookElement.style.width = "96vw";
+        bookElement.style.height = "92vh";
+
+    }
+
+}
+
+// já define o tamanho do #book antes do PageFlip medir o container,
+// evitando que ele recalcule o layout (e "pule") durante o 1º flip
+resizeBook();
+
 const pageFlip = new St.PageFlip(bookElement, {
 
     width: 700,
@@ -52,7 +81,7 @@ for (let i = 1; i <= TOTAL_PAGES; i++) {
     const number = String(i).padStart(3, "0");
 
     const page = document.createElement("div");
-    page.className = "page";
+    page.className = i === 1 ? "page cover" : "page";
 
     const img = document.createElement("img");
     img.src = `pages/page_${number}.jpg`;
@@ -143,25 +172,8 @@ fullscreenBtn.onclick=()=>{
 
 };
 
-function resizeBook() {
-
-    if (window.innerWidth < 768) {
-
-        bookElement.style.width = "96vw";
-        bookElement.style.height = "84vh";
-
-    } else {
-
-        bookElement.style.width = "96vw";
-        bookElement.style.height = "92vh";
-
-    }
-
-}
-
 window.addEventListener("resize", resizeBook);
 
-resizeBook();
 setTimeout(() => {
     updateIndicator();
 }, 100);
