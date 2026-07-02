@@ -63,12 +63,10 @@ for (let i = 1; i <= TOTAL_PAGES; i++) {
 
 }
 
-// Adiciona as páginas ao elemento #book
 pages.forEach(page => {
     bookElement.appendChild(page);
 });
 
-// Carrega as páginas no PageFlip
 pageFlip.loadFromHTML(bookElement.querySelectorAll(".page"));
 
 }
