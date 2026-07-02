@@ -1,14 +1,16 @@
-
-<div align="center">
-<p align="center">
-  <img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,h=432,fit=crop/RwOugvVsVKiOv1KM/kartz-vol-01-banner-catarse-IL4R0dlLkgGdMEdQ.png" width="100%" />
-</p>
-
 # ⚔️ KARTZ — Volume 1
 
 <img src="https://img.shields.io/badge/Novel-Original%20Brazilian%20Work-ff0055?style=for-the-badge" />
 <img src="https://img.shields.io/badge/Genre-Fantasy%20%7C%20Mystery%20%7C%20Action-7c3aed?style=for-the-badge" />
 <img src="https://img.shields.io/badge/Status-Volume%201%20In%20Progress-00c2ff?style=for-the-badge" />
+
+---
+
+
+<div align="center">
+<p align="center">
+  <img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,h=432,fit=crop/RwOugvVsVKiOv1KM/kartz-vol-01-banner-catarse-IL4R0dlLkgGdMEdQ.png" width="100%" />
+</p>
 
 ---
 
