@@ -63,7 +63,11 @@ for (let i = 1; i <= TOTAL_PAGES; i++) {
 
 }
 
-pageFlip.loadFromHTML(pages);
+pages.forEach(page => {
+    bookElement.appendChild(page);
+});
+
+pageFlip.loadFromHTML(document.querySelectorAll(".page"));
 
 }
 
