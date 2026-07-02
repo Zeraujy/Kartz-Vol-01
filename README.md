@@ -1,4 +1,10 @@
+
 <div align="center">
+<p align="center">
+  <img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,h=432,fit=crop/RwOugvVsVKiOv1KM/kartz-vol-01-banner-catarse-IL4R0dlLkgGdMEdQ.png" width="100%" />
+</p>
+
+<h1 align="center">⚔️ KARTZ — Volume 1</h1>
 
 # ⚔️ KARTZ — Volume 1
 
