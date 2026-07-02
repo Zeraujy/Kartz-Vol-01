@@ -81,3 +81,8 @@ Se quiser apoiar o desenvolvimento de *Kartz*, você pode contribuir pelas plata
 ✨ *O início de uma grande jornada está apenas começando.*
 
 </div>
+
+Copyright (c) 2026 Juarez de Alcantara Filho
+
+All rights reserved.
+No permission is granted to copy, distribute or modify this project without explicit authorization.
