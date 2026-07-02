@@ -1,3 +1,5 @@
+<div align="center">
+  
 # ⚔️ KARTZ — Volume 1
 
 <img src="https://img.shields.io/badge/Novel-Original%20Brazilian%20Work-ff0055?style=for-the-badge" />
@@ -6,8 +8,6 @@
 
 ---
 
-
-<div align="center">
 <p align="center">
   <img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,h=432,fit=crop/RwOugvVsVKiOv1KM/kartz-vol-01-banner-catarse-IL4R0dlLkgGdMEdQ.png" width="100%" />
 </p>
