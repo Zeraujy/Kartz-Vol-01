@@ -23,7 +23,7 @@ const pageFlip = new St.PageFlip(bookElement, {
 
     usePortrait: true,
 
-    showCover: true,
+    showCover: false,
 
     mobileScrollSupport: true,
 
@@ -154,25 +154,23 @@ fullscreenBtn.onclick=()=>{
 
 };
 
-function resizeBook(){
+function resizeBook() {
 
-    if(window.innerWidth<768){
+    if (window.innerWidth < 768) {
 
-        bookElement.style.width="96vw";
-        bookElement.style.height="84vh";
+        bookElement.style.width = "96vw";
+        bookElement.style.height = "84vh";
 
-    }else{
+    } else {
 
-        bookElement.style.width="96vw";
-        bookElement.style.height="92vh";
+        bookElement.style.width = "96vw";
+        bookElement.style.height = "92vh";
 
     }
 
-    pageFlip.update();
-
 }
 
-window.addEventListener("resize",resizeBook);
+window.addEventListener("resize", resizeBook);
 
 resizeBook();
 updateIndicator();
