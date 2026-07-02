@@ -63,24 +63,13 @@ for (let i = 1; i <= TOTAL_PAGES; i++) {
 
 }
 
+// Adiciona as páginas ao elemento #book
 pages.forEach(page => {
     bookElement.appendChild(page);
 });
 
-pageFlip.loadFromHTML(document.querySelectorAll(".page"));
-
-}
-
-pageFlip.loadFromHTML(pages);
-
-function updateIndicator(){
-
-    const current = pageFlip.getCurrentPageIndex() + 1;
-
-    const total = pageFlip.getPageCount();
-
-    pageIndicator.innerHTML =
-        `Página ${current} / ${total}`;
+// Carrega as páginas no PageFlip
+pageFlip.loadFromHTML(bookElement.querySelectorAll(".page"));
 
 }
 
@@ -177,4 +166,6 @@ function resizeBook() {
 window.addEventListener("resize", resizeBook);
 
 resizeBook();
-updateIndicator();
+setTimeout(() => {
+    updateIndicator();
+}, 100);
