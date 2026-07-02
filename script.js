@@ -43,9 +43,11 @@ const pageFlip = new St.PageFlip(bookElement, {
 
 });
 
+const TOTAL_PAGES = 32; // coloque aqui a quantidade real de páginas
+
 const pages = [];
 
-for (let i = 1; i <= 999; i++) {
+for (let i = 1; i <= TOTAL_PAGES; i++) {
 
     const number = String(i).padStart(3, "0");
 
@@ -53,18 +55,15 @@ for (let i = 1; i <= 999; i++) {
     page.className = "page";
 
     const img = document.createElement("img");
-
     img.src = `pages/page_${number}.jpg`;
-
-    img.onerror = () => {
-
-        page.remove();
-
-    };
 
     page.appendChild(img);
 
     pages.push(page);
+
+}
+
+pageFlip.loadFromHTML(pages);
 
 }
 
