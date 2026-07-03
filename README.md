@@ -1,6 +1,6 @@
 <div align="center">
   
-# ⚔️ KARTZ — Volume 1
+# ⚔️ KARTZ - Volume 1
 
 <img src="https://img.shields.io/badge/Novel-Original%20Brazilian%20Work-ff0055?style=for-the-badge" />
 <img src="https://img.shields.io/badge/Genre-Fantasy%20%7C%20Mystery%20%7C%20Action-7c3aed?style=for-the-badge" />
